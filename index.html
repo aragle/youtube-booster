@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Booster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Y|Boost</h1>
+            <nav>
+                <ul>
+                    <li><img src="https://img.shields.io/github/stars/facebook/react"/></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <section id="config">
+        <fieldset>
+            <legend>Config Booster</legend>
+            <label for="url">Video URL</label>
+            <input type="text" name="url" id="url" placeholder="https://youtu.be/_XBVWlI8TsQ">
+            <label for="views">Views</label>
+            <input type="number" name="views" id="views" min="1" placeholder="21">
+            <input type="submit" onclick="Boost()" value="Search">
+        </fieldset>
+
+    </section>
+
+    <section id="content">
+        <div id="video" class="container"></div>
+    </section>
+
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Y|BOOST</p>
+    </footer>
+    </body>
+</html>

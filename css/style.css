@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    display: block;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #666;
+}
+
+header nav ul li a.active {
+    color: #666;
+}
+
+.config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: .8rem;
+}
+
+section {
+    padding: 5rem 10%;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #666;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    padding: 5px 10px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    color: #333;
+}
+
+.divider {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+iframe {
+    width: 212px;
+    height: 150px;
+    overflow: hidden;
+    border: none;
+    border-radius: 4px;
+}
