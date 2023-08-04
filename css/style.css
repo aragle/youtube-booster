@@ -150,7 +150,8 @@ label {
 }
 
 iframe {
-    width: 212px;
+    margin-right: 4px;
+    width: 210px;
     height: 150px;
     overflow: hidden;
     border: none;
